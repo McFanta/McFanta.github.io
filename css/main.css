@@ -51,6 +51,13 @@ img {
   position: relative;
   background-color: #068888;
 }
+.404 {
+  border-radius: 10%;
+  width: 900px;
+  height: 300px;
+  position: relative;
+  background-color: #068888;
+}
 ul {
     list-style-type: none;
     margin: 0;
