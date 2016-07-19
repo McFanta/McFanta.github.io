@@ -21,6 +21,13 @@ h3 {
   position: relative;
   color: white;
 }
+p {
+  font-size:30x;
+  font-variant: small-caps;
+  letter-spacing: 2;
+  position: relative;
+  color: white;
+}
 img {
   border-radius: 30%;
 }
