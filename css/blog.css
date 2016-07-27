@@ -64,6 +64,7 @@ img {
   background: #252525;
 }
 .blog {
+  border: 1px solid black;
   width: 1250px;
   height: 650px;
   position: relative;
