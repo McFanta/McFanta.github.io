@@ -1,5 +1,5 @@
 body {
-  background: #252525;
+  background: #008888;
 }
 h1 {
   font-size: 4.55rem;
@@ -82,7 +82,7 @@ ul {
     overflow: hidden;
     text-align: center;
     color: white;
-    background-color: #252525;
+    background-color: #008888;
 }
 
 li {
