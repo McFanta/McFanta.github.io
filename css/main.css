@@ -29,7 +29,7 @@ p {
   color: white;
 }
 img {
-  border-radius: 30%;
+  border-radius: 10%;
 }
 #container {
   border: 1px solid black;
@@ -38,14 +38,14 @@ img {
   background: rgba(37, 37, 37, 0.45);
 }
 .aboutme {
-  border-radius: 20%;
+  border-radius: 10%;
   width: 800px;
   height: 1200px;
   position: relative;
   background-color: #333;
 }
 .contact {
-  border-radius: 20%;
+  border-radius: 10%;
   width: 800px;
   height: 850px;
   position: relative;
