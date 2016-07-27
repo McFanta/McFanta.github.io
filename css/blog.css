@@ -1,5 +1,5 @@
 body {
-  background: #008888;
+  background: rgba(51, 51, 51, 0.86);
 }
 h1 {
   font-size: 4.55rem;
@@ -82,7 +82,7 @@ ul {
     overflow: hidden;
     text-align: center;
     color: white;
-    background-color: #008888;
+    background-color: rgba(51, 51, 51, 0);
 }
 
 li {
