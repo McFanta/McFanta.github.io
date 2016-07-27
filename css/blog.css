@@ -1,0 +1,114 @@
+body {
+  background: #252525;
+}
+h1 {
+  font-size: 4.55rem;
+  font-variant: small-caps;
+  letter-spacing: 3;
+  position: static;
+  color: white;
+}
+h2 {
+  font-size: 2.55rem;
+  font-variant: small-caps;
+  text-align: left;
+  color: #333;
+}
+h3 {
+  font-size: 30px;
+  font-variant: small-caps;
+  letter-spacing: 2;
+  float: left;
+  color: white;
+}
+h4 {
+  font-size: 40px;
+  font-variant: small-caps;
+  letter-spacing: 2;
+  position: relative;
+  width: 1350px;
+  height: 50px;
+  background-color: #252525;
+  color: white;
+}
+time {
+  font-size: 15px;
+  font-variant: small-caps;
+  float: left;
+  color: rgba(30, 28, 28, 0.75);
+}
+p {
+  font-size: 23px;
+  font-variant: small-caps;
+  text-align: left;
+}
+small {
+  font-size: 20px;
+  font-variant: small-caps;
+}
+a {
+  font-size: 1.55rem;
+  font-variant: small-caps;
+  letter-spacing: 2;
+  line-height: 1;
+  position: relative;
+  text-decoration: none;
+}
+img {
+  float: left;
+}
+.content {
+  width: 600px;
+  height: 200px;
+  text-align: center;
+  background: #252525;
+}
+.blog {
+  width: 1250px;
+  height: 650px;
+  position: relative;
+  background-color: #fff;
+}
+.article {
+  width: 500px;
+  text-align: left;
+  background-color: #fff;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    text-align: center;
+    color: white;
+    background-color: #252525;
+}
+
+li {
+    display: block;
+    position: relative;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #252525;
+}
+
+.active {
+    background-color: #252525;
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
