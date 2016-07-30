@@ -1,0 +1,85 @@
+<?xml version="1.0"?>
+<map proto="1.4.0">
+<name>Geiran</name>
+<version>1.0.0</version>
+<objective>Be the team with the least amount of deaths after 5 minutes</objective>
+<authors>
+    <author uuid="a23a1d91-7e97-40b4-8f5e-1ab82d8f5ade"/> <!-- chle_ -->
+    <author uuid="dd495aa8-26a3-4b77-b3fa-e96e2e5a0d47"/> <!--  McFanta_  -->
+</authors>
+<contributors>
+    <contributor uuid="5198dc37-537f-4ea5-8ee8-1e0952d4a36b"/> <!--  _3Each  -->
+    <contributor uuid="ed528509-020d-496f-8dd5-5f57715fc0de"/> <!--  drefvelin  -->
+    <contributor uuid="38ab65dd-95f9-406f-917c-6accc995421f"/> <!-- GoldenOre -->
+    <contributor uuid="6d24722c-dba4-4224-9d14-b3d08a8d9620"/> <!-- MrPetrus -->
+</contributors>
+<teams>
+<team color="blue" max="6" max-overfill="8">Blue</team>
+<team color="red" max="6" max-overfill="8">Red</team>
+</teams>
+<spawns>
+    <spawn kit="spawn-kit" spread="true">
+        <regions>
+        <spawn team="blue" kit="blue" yaw="45">
+<cuboid min="22.5,16.2,23.5" max="22.5,16.2,23.6/>
+</spawn>
+<spawn team="red" kit="red" yaw="135">
+<cuboid min="-43.5,8.1,25.5" max="-43.5,8.1,25.6"/>
+</spawn>    
+        </regions>
+    </spawn>
+    <default region="default-spawn" yaw="-90"/>
+</spawns>
+<score>
+    <kills>1</kills>
+</score>
+<kits>
+    <kit id="spawn-kit">
+        <item slot="0" unbreakable="true" material="stone sword"/>
+        <item slot="1" unbreakable="true" material="BOW"/>
+        <item slot="8" amount="16" material="arrow"/>
+        <helmet color="668b8b" unbreakable="true" locked="true" material="leather helmet"/>
+        <chestplate unbreakable="true" color="668b8b" locked="true" material="leather chestplate"/>
+        <leggings color="668b8b" unbreakable="true" locked="true" material="leather leggings"/>
+        <boots color="668b8b" unbreakable="true" locked="true" material="leather boots"/>
+        <potion amplifier="100" duration="3">heal</potion>
+        <potion amplifier="100" duration="3">damage resistance</potion>
+        <potion amplifier="100" duration="3">regeneration</potion>
+    </kit>
+	<kit name="blue" parents="spawn">
+<helmet color="0066cc" name="Helmet">leather helmet</helmet>
+<chestplate color="0066cc" name="Kevlar">leather chestplate</chestplate>
+</kit>
+<kit name="red" parents="spawn">
+<helmet color="ff2200" name="Helmet">leather helmet</helmet>
+<chestplate color="ff2200" name="Kevlar">leather chestplate</chestplate>
+</kit>
+    <kit id="killreward-kit">
+        <potion duration="3" amplifier="2">speed</potion>
+        <potion duration="3">night vision</potion>
+    </kit>
+</kits>
+<regions>
+    <block id="default-spawn">-27,28.1,60</block>
+    <apply block="never"/>
+</regions>
+<time>5m</time>
+<timelock>on</timelock>
+<hunger>
+    <depletion>off</depletion>
+</hunger>
+<killreward>
+    <kit id="killreward-kit"/>
+    <item material="golden apple"/>
+    <item amount="3" material="arrow"/>
+</killreward>
+<itemremove>
+    <item>stone sword</item>
+    <item>bow</item>
+    <item>arrow</item>
+    <item>leather helmet</item>
+    <item>leather chestplate</item>
+    <item>leather leggings</item>
+    <item>leather boots</item>
+</itemremove>
+</map>
