@@ -14,6 +14,9 @@ h2 {
   text-align: left;
   color: #333;
 }
+h2 a {
+  font-size: 2.55rem;
+}
 h3 {
   font-size: 30px;
   font-variant: small-caps;
@@ -47,13 +50,13 @@ small {
   font-variant: small-caps;
 }
 a {
-  font-size: 2.55rem;
+  font-size: 1.55rem;
   font-variant: small-caps;
   letter-spacing: 2;
   line-height: 1;
   position: relative;
   text-decoration: none;
-  color: rgba(0, 0, 0, 0.84);
+  color: rgba(0, 0, 0, 0.84); 
 }
 img {
   float: left;
