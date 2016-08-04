@@ -48,7 +48,7 @@ time {
   color: rgba(30, 28, 28, 0.75);
 }
 p {
-  font-family: roboto;
+  font-family: -webkit-body;
   font-size: 23px;
   font-variant: small-caps;
   float: left;
