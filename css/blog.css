@@ -50,7 +50,7 @@ p {
   font-family: roboto;
   font-size: 23px;
   font-variant: small-caps;
-  text-align: left;
+  float: left;
 }
 small {
   font-family: roboto;
