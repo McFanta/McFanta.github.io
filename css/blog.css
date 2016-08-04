@@ -86,9 +86,15 @@ img {
   background-color: rgba(255, 255, 255, 0.91);
 }
 .article {
-  width: 500px;
+  width: 480px;
+  height: 100px;
   text-align: left;
 }
+.articleold {
+  width: 480px;
+  height: 100px;
+  text-align: left;
+  }
 ul {
     list-style-type: none;
     margin: 0;
