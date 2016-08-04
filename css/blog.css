@@ -2,6 +2,7 @@ body {
   background: rgba(51, 51, 51, 0.86);
 }
 h1 {
+  font-family: roboto;
   font-size: 4.55rem;
   font-variant: small-caps;
   letter-spacing: 3;
@@ -9,15 +10,18 @@ h1 {
   color: white;
 }
 h2 {
+  font-family: roboto;
   font-size: 2.55rem;
   font-variant: small-caps;
   text-align: left;
   color: #333;
 }
 h2 a {
+  font-family: roboto;
   font-size: 2.55rem;
 }
 h3 {
+  font-family: roboto;
   font-size: 30px;
   font-variant: small-caps;
   letter-spacing: 2;
@@ -25,6 +29,7 @@ h3 {
   color: white;
 }
 h4 {
+  font-family: roboto;
   font-size: 40px;
   font-variant: small-caps;
   letter-spacing: 2;
@@ -35,21 +40,25 @@ h4 {
   color: white;
 }
 time {
+  font-family: roboto;
   font-size: 15px;
   font-variant: small-caps;
   float: left;
   color: rgba(30, 28, 28, 0.75);
 }
 p {
+  font-family: roboto;
   font-size: 23px;
   font-variant: small-caps;
   text-align: left;
 }
 small {
+  font-family: roboto;
   font-size: 20px;
   font-variant: small-caps;
 }
 a {
+  font-family: roboto;
   font-size: 1.55rem;
   font-variant: small-caps;
   letter-spacing: 2;
@@ -104,6 +113,7 @@ li a {
 
 li a:hover:not(.active) {
     background-color:  rgba(51, 51, 51, 0.86);
+	text-decoration: none;
 }
 
 .active {

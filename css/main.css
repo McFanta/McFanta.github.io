@@ -2,12 +2,14 @@ body {
   background: rgba(51, 51, 51, 0.86);
 }
 h1 {
+  font-family: roboto;
   font-size: 65px;
   font-variant: small-caps;
   position: static;
   color: white;
 }
 h2 {
+  font-family: roboto;
   font-size: 60px;
   font-variant: small-caps;
   letter-spacing: 1;
@@ -15,6 +17,7 @@ h2 {
   color: white;
 }
 h3 {
+  font-family: roboto;
   font-size: 20px;
   font-variant: small-caps;
   letter-spacing: 2;
@@ -22,6 +25,7 @@ h3 {
   color: white;
 }
 p {
+  font-family: roboto;
   font-size: 30px;
   font-variant: small-caps;
   letter-spacing: 2;
@@ -96,6 +100,7 @@ li a, .dropbtn {
 
 li a:hover, .dropdown:hover .dropbtn {
     background-color: #2E2E2E;
+	text-decoration: none;
 }
 
 li.dropdown {
