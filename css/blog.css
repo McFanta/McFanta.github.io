@@ -19,6 +19,7 @@ h2 {
 h2 a {
   font-family: roboto;
   font-size: 2.55rem;
+  text-decoration: none;
 }
 h3 {
   font-family: roboto;
