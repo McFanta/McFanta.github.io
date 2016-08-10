@@ -1,12 +1,12 @@
 body {
-  background: rgba(51, 51, 51, 0.86);
+  background: #333;
 }
 h1 {
   font-family: roboto;
   font-size: 65px;
   font-variant: small-caps;
   position: static;
-  color: white;
+  color: #fff;
 }
 h2 {
   font-family: roboto;
@@ -14,7 +14,7 @@ h2 {
   font-variant: small-caps;
   letter-spacing: 1;
   position: static;
-  color: white;
+  color: #fff;
 }
 h3 {
   font-family: roboto;
@@ -22,7 +22,7 @@ h3 {
   font-variant: small-caps;
   letter-spacing: 2;
   position: relative;
-  color: white;
+  color: #fff;
 }
 p {
   font-family: roboto;
@@ -30,7 +30,7 @@ p {
   font-variant: small-caps;
   letter-spacing: 2;
   position: relative;
-  color: white;
+  color: #fff;
 }
 img {
   border-radius: 5%;
@@ -47,6 +47,7 @@ img {
   height: 1200px;
   position: relative;
   background-color: #333;
+  color: #fff;
 }
 .contact {
   border-radius: 5%;
@@ -54,6 +55,7 @@ img {
   height: 850px;
   position: relative;
   background-color: rgba(51, 51, 51, 0.65);
+  color: #fff;
 }
 .error {
   border-radius: 5%;
@@ -61,6 +63,7 @@ img {
   height: 300px;
   position: relative;
   background-color: #333;
+  color: #fff;
 }
 ul {
     list-style-type: none;
