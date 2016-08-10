@@ -2,14 +2,12 @@ body {
   background-color: #333;
 }
 h1 {
-  font-family: roboto;
   font-size: 65px;
   font-variant: small-caps;
   position: static;
   color: #fff;
 }
 h2 {
-  font-family: roboto;
   font-size: 60px;
   font-variant: small-caps;
   letter-spacing: 1;
@@ -17,7 +15,6 @@ h2 {
   color: #fff;
 }
 h3 {
-  font-family: roboto;
   font-size: 20px;
   font-variant: small-caps;
   letter-spacing: 2;
@@ -25,7 +22,6 @@ h3 {
   color: #fff;
 }
 p {
-  font-family: roboto;
   font-size: 30px;
   font-variant: small-caps;
   letter-spacing: 2;
