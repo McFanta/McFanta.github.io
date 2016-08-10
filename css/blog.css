@@ -2,9 +2,9 @@ body {
   background: #333;
 }
 h1 {
-  font-size: 4.55rem;
+  font-size: 60px;
   font-variant: small-caps;
-  letter-spacing: 3;
+  letter-spacing: 2;
   position: static;
   color: white;
 }
@@ -17,7 +17,7 @@ h2 {
 }
 h2 a {
   font-family: -webkit-pictograph;
-  font-size: 2.55rem;
+  font-size: 1.55rem;
   text-decoration: none;
 }
 h3 {
@@ -54,6 +54,7 @@ p {
 small {
   color: #fff;
   font-variant: small-caps;
+  font-size: 20px;
 }
 a {
   font-size: 1.55rem;
